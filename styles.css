@@ -1,0 +1,118 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-repeat: no-repeat;
+    /* background-size: auto 2411px; */
+    background-position: center right;
+    background-image: url("./img/2fondo.jpg");
+
+    font-family: 'Comfortaa', cursive; color: aliceblue;
+}
+
+header{
+    font-family: 'Comfortaa', cursive; color: aliceblue;
+    height: 1100px;
+    
+    background: linear-gradient(180deg, rgb(0 0 0 / 61%) 21%, rgba(52,49,164,0.4) 75%);
+}
+
+.logotipo{
+    width: 8rem;
+    margin: 8rem 0rem 6rem 7rem;
+}
+
+.icono-user{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #F77735;
+    margin: 8rem 7rem 6rem 0rem;
+}
+
+.sloganybtns{
+    width: 50%;
+    margin-left: 8rem;
+}
+.sloganybtns button{
+    height: 48px; width: 176px;
+    margin: 2rem 3rem 0rem 0rem   ;
+    color: azure;
+    background-image: linear-gradient(to right, #ca3d00, #d74f11, #e56020, #f2702e, #ff803c);
+    font-size: 1rem;
+    border-radius: 15px;
+}
+
+/* carousel */
+#carouseles{
+    color: azure;
+    background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,0.4) 20%, rgba(0,0,0,0.6) 80%);
+text-align: center;
+height: 1350px;
+}
+#carouseles>h1{
+    padding: 80px 0px;
+}
+#carouseles>p{
+    padding: 90px 0px;
+    font-size: 2.5rem;
+}
+
+.carousel-item {
+    height: 550px;
+}
+.carousel-imgtex-container{
+    width: 33.33%;
+    height: 550px;
+}
+.carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    min-height: 550px;
+    position: relative;
+}
+.carousel-item h5 {
+    font-size: 1.1rem;
+    position: relative;
+    bottom: 80px;
+    width: 90%;
+
+    background-color: #7c371563;
+    background-size: 100px;
+}
+
+/* footer */
+footer{
+    padding-left: 7rem ;
+    padding-right: 7rem ;
+    background: rgb(39,37,123);
+    background: linear-gradient(180deg,  rgb(0 0 0 / 70%) 0%, rgb(16 18 24 / 99%) 98%);
+    color: azure;
+}
+
+.img-footer{
+    width: 100%; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("./img/image-footer.png");
+}
+
+.logotipo-footer{
+    width: 8rem;
+    /* margin:  7rem 7rem 2rem 7rem;  */
+}
+
+.nav-link{
+    color: rgb(189, 189, 189);
+}
+
+@media screen and (min-width: 992px) {
+    .logotipo{
+        width: 8rem !important;
+        margin-left: 7rem;
+    }
+}
